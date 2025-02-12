@@ -1,6 +1,0 @@
-https://onedrive.live.com/personal/3bf6bd70c3058a66/_layouts/15/doc.aspx?resid=a2ce78cb-c211-4fbd-982c-b77fe7b1d237&cid=3bf6bd70c3058a66&action=editnew&wdNewAndOpenCt=1736657023619&ct=1736657024793&wdOrigin=OFFICECOM-WEB.START.NEW&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=90e48326-0250-4158-975c-34bcaa6e9b0f
-
-
-if you want to one could create only one campaign
-  const existingCampaign = await campaignSchema.findOne({ createdBy: campaignCreatedUser._id })
-        if (existingCampaign) return res.status(400).json({ error: "campaign has been already created" })
